@@ -24,7 +24,7 @@ for w in ext_walls:
     for psetname, pset_dict in psets.items():
         for name, value in pset_dict.items():
             # print (f"{name}: {value}")
-            if name == "NetVolume":
+            if name == "NetVolume":                #NetVolume
                 totalvolume += float(value)
 print(f'TotalVolume: {totalvolume:.2f}')
 
