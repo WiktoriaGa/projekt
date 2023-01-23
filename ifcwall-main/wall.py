@@ -2,7 +2,7 @@ import ifcopenshell.util.element #import
 import pprint as pp
 
 m = ifcopenshell.open("231110AC-11-Smiley-West-04-07-2007.ifc")
-walls = m.by_type("IfcWall")
+walls = m.by_type("IfcWall") #IfcWall
 print(len(walls))
 
 print(f'Liczba ścian w modelu: {len(walls)}') #liczba scian
